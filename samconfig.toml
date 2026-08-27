@@ -4,7 +4,7 @@ version = 0.1
 
 [default.global.parameters]
 stack_name = "project-sam-first"
-region = "ap-south-2"
+region = "ap-south-1"
 
 [default.build.parameters]
 cached = true

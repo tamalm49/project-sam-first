@@ -41,7 +41,7 @@ Parameters:
     Default: "template.yaml"
   TestingRegion:
     Type: String
-    Default: "ap-south-2"
+    Default: "ap-south-1"
   TestingStackName:
     Type: String
     Default: "sam-app"
@@ -62,7 +62,7 @@ Parameters:
     Default: ""
   ProdRegion:
     Type: String
-    Default: "ap-south-2"
+    Default: "ap-south-1"
   ProdStackName:
     Type: String
     Default: "sam-app-prod"
