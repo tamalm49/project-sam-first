@@ -32,7 +32,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "https://github.com/tamalm49/project-sam-first.git"
+    Default: "/tamalm49/project-sam-first.git"
   MainGitBranch:
     Type: String
     Default: "master"
@@ -44,16 +44,16 @@ Parameters:
     Default: "ap-south-1"
   TestingStackName:
     Type: String
-    Default: "sam-app"
+    Default: "sam-app-first-uat"
   TestingPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-source-pi-PipelineExecutionRole-Z24OqiLxoa5L"
+    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-uat-pipel-PipelineExecutionRole-1B3ndjQeq3Pr"
   TestingCloudFormationExecutionRole:
     Type: String
-    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-sourc-CloudFormationExecutionRo-G1JnXVXzCzV9"
+    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-uat-p-CloudFormationExecutionRo-HHgb6yVybR4h"
   TestingArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-source-pipelin-artifactsbucket-lnmab2hrkjcu"
+    Default: "aws-sam-cli-managed-uat-pipeline-r-artifactsbucket-tdmfvjrxowrl"
   TestingImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
@@ -65,16 +65,16 @@ Parameters:
     Default: "ap-south-1"
   ProdStackName:
     Type: String
-    Default: "sam-app-prod"
+    Default: "sam-app-first-stagging"
   ProdPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::202823104571:user/myComputer"
+    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-stagging--PipelineExecutionRole-eeVict9ivwcI"
   ProdCloudFormationExecutionExeRole:
     Type: String
-    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-hoaHmjsx7dys"
+    Default: "arn:aws:iam::202823104571:role/aws-sam-cli-managed-stagg-CloudFormationExecutionRo-Ygo4qDbsRJEN"
   ProdArtifactBucket:
     Type: String
-    Default: "aws-sam-cli-managed-prod-pipeline--artifactsbucket-ltf06ssb1wzx"
+    Default: "aws-sam-cli-managed-stagging-pipel-artifactsbucket-ukjc0moyscgg"
   ProdImageRepository:
     Type: String
     # If there are functions with "Image" PackageType in your template,
