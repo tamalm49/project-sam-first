@@ -15,7 +15,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: 'hello this is from earth',
+                message: 'This is a sample Lambda function for AWS SAM',
             }),
         };
     } catch (err) {
