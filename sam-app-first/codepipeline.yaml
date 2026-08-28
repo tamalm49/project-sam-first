@@ -84,10 +84,10 @@ Parameters:
   # CodeStarConnectionArn and FeatureGitBranch are required for pipelines for feature branches
   CodeStarConnectionArn:
     Type: String
-    Default: ""
+    Default: "arn:aws:codeconnections:ap-south-1:202823104571:connection/c583a70a-a6e7-485b-82d5-3c156ecf93cb"
   FeatureGitBranch:
     Type: String
-    Default: ""
+    Default: "master"
 
 Conditions:
   IsMainBranchPipeline: !Equals [!Ref FeatureGitBranch, ""]
