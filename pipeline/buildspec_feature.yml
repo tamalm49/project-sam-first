@@ -18,4 +18,5 @@ phases:
                     --region ${TESTING_REGION}
                     --s3-bucket ${TESTING_ARTIFACT_BUCKET}
                     --no-fail-on-empty-changeset
+                    --no-confirm-changeset
                     --role-arn ${TESTING_CLOUDFORMATION_EXECUTION_ROLE}
