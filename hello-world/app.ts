@@ -15,6 +15,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
         return {
             statusCode: 200,
             body: JSON.stringify({
+                status: 200,
                 message: 'This testing pipeline push .This is a very sample Lambda function for AWS SAM',
             }),
         };
