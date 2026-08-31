@@ -5,7 +5,7 @@ phases:
       python: 3.8
     commands:
       - pip install --upgrade pip
-      - pip install --upgrade awscli aws-sam-cli
+      - pip install --no-cache-dir --upgrade awscli aws-sam-cli
   build:
     commands:
       - . ./assume-role.sh ${ENV_PIPELINE_EXECUTION_ROLE} deploy
